@@ -108,7 +108,7 @@ export default function TravelBookingWebsite() {
   const handleSearch = () => {
     setBookingStep('results');
   };
-
+console.log("kjh");
   const handleSelectItem = (item: Item) => {
     setSelectedItem(item);
     setBookingStep('details');
