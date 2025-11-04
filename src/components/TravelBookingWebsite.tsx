@@ -463,7 +463,7 @@ export default function TravelBookingWebsite() {
       {/* Hero Section */}
       {bookingStep === 'search' && (
         <div className="relative bg-gradient-to-r from-primary-600 to-secondary-600 text-white py-32 overflow-hidden">
-          <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
+          <div className="absolute inset-0  opacity-10"></div>
           <div className="absolute inset-0 bg-gradient-to-b from-primary-600/5 to-secondary-600/50"></div>
           <div className="container mx-auto px-6 text-center relative z-10">
             <h2 className="text-6xl font-display font-bold mb-6 leading-tight">
